@@ -1,0 +1,31 @@
+*{
+	background-color:#33ccff;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	background:white;
+	width:50%;
+	height:350px;
+	margin:100px auto;
+	border-radius: 12px 12px 0 0;
+	overflow:hidden;
+	
+}
+.container ul{
+	display:flex;
+	list-style-type:none;
+}
+.container ul li{
+	cursor:pointer;
+	line-height:50px;
+	text-align:center;
+	background-color:#ccffff;
+	width:20%;
+	height:50px;
+
+}
+.container ul .active{
+	background-color:white;
+}
